@@ -17,3 +17,4 @@
   ```bash
   uname -a
   ```
+This command displays your Linux kernel version and system information.
