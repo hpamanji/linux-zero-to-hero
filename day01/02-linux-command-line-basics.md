@@ -1,6 +1,4 @@
-# Session 2: Linux Command Line Basics
-
-## Theory
+## Session 2: Linux Command Line Basics
 
 ### The Linux File System
 

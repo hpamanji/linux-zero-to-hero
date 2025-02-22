@@ -1,6 +1,8 @@
-# User and Group Management in Linux
+## Session 01 : User and Group Management in Linux
 
-In this session, we’ll explore how to manage users and groups in Linux. User and group management is a critical skill for system administrators, as it ensures proper access control and security on a Linux system. By the end of this session, you’ll be able to create, modify, and delete users and groups, as well as assign permissions effectively.
+In this session, we’ll explore how to manage users and groups in Linux. 
+
+User and group management is a critical skill for system administrators, as it ensures proper access control and security on a Linux system. By the end of this session, you’ll be able to create, modify, and delete users and groups, as well as assign permissions effectively.
 
 ---
 
@@ -21,14 +23,14 @@ In this session, we’ll explore how to manage users and groups in Linux. User a
 
 ---
 
-## Hands-On Lab: Managing Users and Groups
+### Hands-On Lab: Managing Users and Groups
 
-### Objective
+#### Objective
 Learn how to create, modify, and delete users and groups.
 
 ---
 
-### Step 1: Create a New User
+#### Step 1: Create a New User
 1. Open the terminal.
 2. Use the `useradd` command to create a new user:
    ```bash
@@ -47,7 +49,7 @@ Learn how to create, modify, and delete users and groups.
   
 ---
 
-## Step 2: Modify a User
+#### Step 2: Modify a User
 
 1. Change the user’s full name:
 ```bash
@@ -71,7 +73,7 @@ sudo usermod -U alice
 
 ---
 
-## Step 3: Delete a User
+#### Step 3: Delete a User
 
 1. Delete the user **and** their home directory:
 
@@ -83,7 +85,7 @@ sudo userdel -r alice
 
 ---
 
-## Step 4: Create and Manage Groups
+#### Step 4: Create and Manage Groups
 1. Create a new group:
 ```bash
 sudo groupadd developers
@@ -112,15 +114,14 @@ sudo groupdel developers
 
 ---
 
-## Best Practices and Common Issues
+### Best Practices and Common Issues
 
-### Best Practices
+#### Best Practices
 - **Use Strong Passwords**: Always set strong passwords for user accounts.
 - **Limit Sudo Access**: Only grant sudo privileges to trusted users.
 - **Use Groups for Permission Management**: Assign permissions to groups instead of individual users for easier management.
 
-### Common Issues
+#### Common Issues
 - **Deleting the Wrong User**: Double-check before deleting a user, especially the `root` user.
 - **Forgetting to Remove Home Directories**: Use `userdel -r` to remove home directories when deleting users.
 - **Overusing Sudo**: Avoid running commands as root unless absolutely necessary.
-```
