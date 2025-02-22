@@ -109,14 +109,14 @@ A process is an instance of a running program. Each process has a unique Process
 
 ---
 
-### Best Practices and Common Pitfalls
+### Best Practices and Common Issues
 
-#### Best Practices
+#### Best Issues
 - **Monitor System Resources**: Use `top` or `htop` to monitor CPU, memory, and I/O usage.
 - **Terminate Processes Carefully**: Avoid using `kill -9` unless absolutely necessary.
 - **Adjust Priorities Wisely**: Use `nice` and `renice` to prioritize critical processes.
 
-#### Common Pitfalls
+#### Common Issues
 - **Killing the Wrong Process**: Double-check the PID before terminating a process.
 - **Ignoring Resource Usage**: Failing to monitor resource usage can lead to system slowdowns or crashes.
 - **Overusing `kill -9`**: Forcefully terminating processes can lead to data loss or corruption.
