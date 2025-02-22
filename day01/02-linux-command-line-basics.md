@@ -37,34 +37,29 @@ Practice basic commands to navigate and manage files.
 3. **Use `ls` to list files in the current directory.**  
 4. **Create a new directory:**
 
-```markdown
-# Create a New Directory
-
 ```bash
 mkdir my_project
 ```
-
-# Navigate into the Directory
+5. **Navigate into the Directory**
 
 ```bash
 cd my_project
 ```
 
-# Create a File
+6. **Create a File**
 
 ```bash
 touch hello.txt
 ```
 
-# List the Contents of the Directory
+7. **List the Contents of the Directory**
 
 ```bash
 ls
 ```
 
-# Delete the File
+8. **Delete the File**
 
 ```bash
 rm hello.txt
-```
 ```
