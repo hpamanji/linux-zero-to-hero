@@ -1,4 +1,4 @@
-# Session 3 : Working with Text Files
+## Session 3 : Working with Text Files
 
 ### Text Editors
 - **nano**: A simple, beginner-friendly text editor.
