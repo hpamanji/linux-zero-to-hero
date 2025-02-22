@@ -112,14 +112,14 @@ sudo groupdel developers
 
 ---
 
-## Best Practices and Common Pitfalls
+## Best Practices and Common Issues
 
 ### Best Practices
 - **Use Strong Passwords**: Always set strong passwords for user accounts.
 - **Limit Sudo Access**: Only grant sudo privileges to trusted users.
 - **Use Groups for Permission Management**: Assign permissions to groups instead of individual users for easier management.
 
-### Common Pitfalls
+### Common Issues
 - **Deleting the Wrong User**: Double-check before deleting a user, especially the `root` user.
 - **Forgetting to Remove Home Directories**: Use `userdel -r` to remove home directories when deleting users.
 - **Overusing Sudo**: Avoid running commands as root unless absolutely necessary.
