@@ -120,4 +120,3 @@ A process is an instance of a running program. Each process has a unique Process
 - **Killing the Wrong Process**: Double-check the PID before terminating a process.
 - **Ignoring Resource Usage**: Failing to monitor resource usage can lead to system slowdowns or crashes.
 - **Overusing `kill -9`**: Forcefully terminating processes can lead to data loss or corruption.
-```
