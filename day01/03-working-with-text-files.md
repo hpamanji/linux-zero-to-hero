@@ -13,10 +13,9 @@
 
 ---
 
-## Hands-On Lab: Text File Manipulation
+### Hands-On Lab: Text File Manipulation
 
-### Objective
-Learn how to create, edit, and manipulate text files.
+**Objective: Learn how to create, edit, and manipulate text files.**
 
 ### Steps
 
