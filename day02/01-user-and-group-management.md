@@ -33,39 +33,38 @@ Learn how to create, modify, and delete users and groups.
 2. Use the `useradd` command to create a new user:
    ```bash
    sudo useradd -m -s /bin/bash alice
+   ```
    -m: Creates a home directory for the user.
    -s /bin/bash: Sets the default shell to Bash.
+3. Set a password for the user:
+  ```bash
+  sudo passwd alice
   ```
-  Set a password for the user:
-```bash
-sudo passwd alice
-```
-
-Verify the user creation:
-```bash
-id alice
-```
-
+4. Verify the user creation:
+  ```bash
+  id alice
+  ```
+  
 ---
 
 ## Step 2: Modify a User
 
-Change the user’s full name:
+1. Change the user’s full name:
 ```bash
 sudo usermod -c "Alice Smith" alice
 ```
 
-Change the user’s shell to `sh`:
+2. Change the user’s shell to `sh`:
 ```bash
 sudo usermod -s /bin/sh alice
 ```
 
-Lock the user account:
+3. Lock the user account:
 ```bash
 sudo usermod -L alice
 ```
 
-Unlock the user account:
+4. Unlock the user account:
 ```bash
 sudo usermod -U alice
 ```
@@ -74,38 +73,39 @@ sudo usermod -U alice
 
 ## Step 3: Delete a User
 
-Delete the user **and** their home directory:
+1. Delete the user **and** their home directory:
+
 ```bash
 sudo userdel -r alice
 ```
+
 - **-r**: Removes the user’s home directory and mail spool.
 
 ---
 
 ## Step 4: Create and Manage Groups
-
-Create a new group:
+1. Create a new group:
 ```bash
 sudo groupadd developers
 ```
 
-Add a user to the group:
+2. Add a user to the group:
 ```bash
 sudo usermod -aG developers alice
 ```
 - **-aG**: Appends the user to the group without removing them from other groups.
 
-Verify the group membership:
+3. Verify the group membership:
 ```bash
 groups alice
 ```
 
-Remove a user from the group:
+4. Remove a user from the group:
 ```bash
 sudo gpasswd -d alice developers
 ```
 
-Delete the group:
+5. Delete the group:
 ```bash
 sudo groupdel developers
 ```
