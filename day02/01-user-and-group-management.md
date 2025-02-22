@@ -4,8 +4,6 @@ In this session, we’ll explore how to manage users and groups in Linux. User a
 
 ---
 
-## Theory
-
 ### What are Users and Groups?
 - **Users**: Every person or process that interacts with a Linux system has a user account. Each user has a unique identifier (UID) and a home directory.
 - **Groups**: Groups are collections of users. They simplify permission management by allowing you to assign permissions to multiple users at once.
