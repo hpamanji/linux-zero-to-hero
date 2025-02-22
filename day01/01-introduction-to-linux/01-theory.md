@@ -1,6 +1,5 @@
 ## Session 1: Introduction to Linux
 
-### Theory
 #### What is Linux?
 Linux is an open-source operating system based on the Unix architecture. It’s widely used in servers, cloud environments, embedded systems, and even desktop computers. Unlike proprietary systems like Windows or macOS, Linux is free to use, modify, and distribute, making it a favorite among developers, sysadmins, and tech enthusiasts.
 
