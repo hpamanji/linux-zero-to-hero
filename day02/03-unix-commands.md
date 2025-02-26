@@ -1,6 +1,6 @@
----
-
 ## 1. User and Session Management
+
+The commands below help in viewing logged-in users, switching user accounts, managing passwords, checking user/group IDs, and reviewing historical login sessions.
 
 ### 1.1 **who**
 - **Purpose**: Shows which users are currently logged in.  
