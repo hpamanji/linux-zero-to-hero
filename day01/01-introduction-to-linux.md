@@ -1,38 +1,37 @@
-## Session 1: Introduction to Linux
+# Introduction to UNIX
 
-#### What is Linux?
-Linux is an open-source operating system based on the Unix architecture. It’s widely used in servers, cloud environments, embedded systems, and even desktop computers. Unlike proprietary systems like Windows or macOS, Linux is free to use, modify, and distribute, making it a favorite among developers, sysadmins, and tech enthusiasts.
+## Multiuser System
+UNIX is a multiprogramming system, permitting multiple users to run separate jobs simultaneously. The CPU, memory, and hard disk are shared between users.  
 
-#### Why Learn Linux?
-- **Ubiquity**: Linux powers 90% of the cloud infrastructure and most supercomputers.
-- **Career Opportunities**: Linux skills are in high demand for DevOps, cloud engineering, and system administration roles.
-- **Flexibility**: Linux is highly customizable, allowing you to tailor it to your needs.
+- The system splits a unit of time into several segments, allocating each segment to a different user.  
+- At any given moment, the system runs a job for a single user; when that user’s allotted time expires, the job is put on hold, and the system moves on to the next job.
 
-#### Linux Distributions
-Linux comes in many flavors, called distributions (or distros). Each distro is tailored for specific use cases:
-- **Ubuntu**: Beginner-friendly, great for desktops and servers.
-- **CentOS/RHEL**: Enterprise-grade, used in production environments.
-- **Debian**: Stable and reliable, often used for servers.
-- **Fedora**: Cutting-edge, ideal for developers.
+## Multitasking System
+A single user can also run multiple tasks concurrently in a multitasking environment.  
 
----
+- One job can run in the foreground while the rest run in the background.  
+- For example, you might edit one file while simultaneously printing another.  
+- Multiple jobs can be handled in parallel, giving the illusion of simultaneous execution.
 
-## Set up a Linux environment to practice your skills.
+## Building-Block Approach
+UNIX commands are designed to perform simple, specific tasks. A powerful feature of UNIX is the ability to chain commands together:
 
-#### Steps
-1. **Choose a Linux Distribution**:
-   - For beginners, I recommend **Ubuntu** or **Linux Mint**.
-2. **Set Up a Virtual Machine**:
-   - Install VirtualBox or VMware on your computer.
-   - Download the ISO file for your chosen Linux distro.
-   - Create a new virtual machine and install Linux.
-3. **Cloud-Based Option**:
-   - Use a cloud provider like AWS, Azure, or Google Cloud to spin up a Linux instance.
-   - Alternatively, use free services like [replit.com](https://replit.com) for a browser-based Linux terminal.
+- Using the pipe symbol (`|`), the output of one command can be fed directly into another command.  
+- This allows you to build complex functionalities from smaller, single-purpose commands.
 
-#### Verify Your Setup
-- Open the terminal and run:
-  ```bash
-  uname -a
-  ```
-This command displays your Linux kernel version and system information.
+## UNIX Toolkit
+While the **kernel** itself is relatively minimal, UNIX provides a wide array of tools to meet various needs:
+
+- **General-purpose tools**  
+- **Text manipulation utilities**  
+- **Compilers & interpreters**  
+- **Network applications**  
+- **System administration tools**  
+
+You also have a choice of different shells. With each release of UNIX, new tools are added while older ones may be modified or removed.
+
+## Programming Facility
+UNIX offers robust features for programmers:
+
+- **Shell scripting** (e.g., the Bourne shell, Bash) and **awk** provide programming environments.  
+- They include control structures, loops, and variables, making them powerful programming languages in their own right.
