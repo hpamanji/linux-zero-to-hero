@@ -32,3 +32,21 @@
      - `dd` – Delete line, `yy` – Yank (copy) line, `p` – Paste.  
      - `r` – Replace a character, `R` – Overwrite mode.  
      - `:1,$s/cat/dog/g` – Replace all instances of “cat” with “dog” throughout the file.
+
+---
+
+## 5. Copying, Moving, and Renaming Files
+
+### 5.1 **cp** (Copy)
+- **Purpose**: Copy files or directories.  
+- **Examples**:  
+  - `cp <source> <destination>` – Copy a file.  
+  - `cp -r <src_dir> <dest_dir>` – Copy directories recursively.
+
+### 5.2 **mv** (Move / Rename)
+- **Purpose**: Move files or directories, or rename them.  
+- **Examples**:  
+  - `mv <source> <destination>` – Move a file/directory.  
+  - `mv <old_name> <new_name>` – Rename a file/directory.
+
+---
