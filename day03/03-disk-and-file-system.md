@@ -10,5 +10,3 @@
 - **Purpose**: Displays free disk space.  
 - **Examples**:  
   - `df -h` – Human-readable disk usage (e.g., `/dev/sda1`).
-
----
