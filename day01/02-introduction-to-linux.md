@@ -35,3 +35,5 @@ UNIX offers robust features for programmers:
 
 - **Shell scripting** (e.g., the Bourne shell, Bash) and **awk** provide programming environments.  
 - They include control structures, loops, and variables, making them powerful programming languages in their own right.
+- Shell scripts can invoke multiple commands together to form complex logics. Awk can be used for generating reports.
+
