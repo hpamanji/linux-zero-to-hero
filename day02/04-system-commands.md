@@ -1,5 +1,3 @@
----
-
 ## 2. Basic System Information
 
 ### 2.1 **uname**
@@ -39,4 +37,3 @@
 - **Examples**:  
   - `echo $SHELL` – Shows which shell you are using.
 
----
